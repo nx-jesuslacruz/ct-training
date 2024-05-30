@@ -1,0 +1,25 @@
+{
+  "name": "commercetools-typescript-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@types/node-fetch": "^2.6.11",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@commercetools/history-sdk": "^4.3.0",
+    "@commercetools/importapi-sdk": "^5.4.0",
+    "@commercetools/platform-sdk": "^7.8.0",
+    "@commercetools/sdk-client-v2": "^2.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
